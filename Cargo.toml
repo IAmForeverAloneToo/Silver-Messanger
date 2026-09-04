@@ -41,7 +41,7 @@ axum-server = { version = "0.8", features = ["tls-rustls-no-provider"] }
 # serialization
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
-base64 = "0.22"
+base64 = "0.23"
 bs58 = "0.5"
 
 # crypto (pinned to the mutually compatible rand_core 0.6 generation)
